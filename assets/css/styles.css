@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding-top: 500px;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Sacramento', cursive;
+}
+
+header {
+  background: url('http://northbeachvillageresort.com/assets/img/theme/slideshows/home/north-beach-village-resort-slide-4.jpg') center bottom no-repeat;
+  background-size: cover;
+  height: 500px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px black;
+  font-size: 25px;
+}
+
+.main-nav,
+.main-content {
+  position: relative;
+}
+
+.main-nav {
+  background: #fff;
+  height: 80px;
+  z-index: 150;
+  margin-bottom: -80px;
+  box-shadow: 0 2px 3px rgba(0,0,0,.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-nav a:first-of-type {
+  margin-right: auto;
+}
+
+.main-nav a:last-of-type {
+  margin-left: auto;
+}
+
+.main-nav a {
+  text-decoration: none;
+  padding: 20px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.main-nav a:hover, .main-nav a:focus {
+  color: rgba(0, 0, 0, 1);
+
+}
+
+header,
+.main-nav-scrolled {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.main-content {
+  background: #f2f2e8;
+  padding: 110px 50px 50px;
+  /*column-count: 2;
+  column-gap: 40px;*/
+}
